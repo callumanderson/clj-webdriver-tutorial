@@ -1,6 +1,8 @@
 # clj-webdriver-tutorial
 
-FIXME
+This is a proof of concept for Clojure, Selenium and Webdriver.
+
+The program is expected to start a server and assert some facts
 
 ## Prerequisites
 
@@ -10,10 +12,6 @@ You will need [Leiningen][] 2.0.0 or above installed.
 
 ## Running
 
-To start a web server for the application, run:
+To execute the tests, run:
 
-    lein ring server
-
-## License
-
-Copyright © 2016 FIXME
+    lein test
